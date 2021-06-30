@@ -7,9 +7,12 @@
 	pointer-events: none;
 }
 
-/* body {
+body {
 	background-image: url("./images/greece1.jpeg");
-} */
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	color: white;
+}
 
 table {
 	width: 100%;
@@ -20,6 +23,7 @@ table,
 th,
 td {
 	border: 1px solid black;
+	background-color: salmon;
 }
 
 button {
