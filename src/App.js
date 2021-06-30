@@ -17,7 +17,7 @@ class App extends Component {
   getWeatherData = (zipcode) => {
     console.log(zipcode);
     fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=5ffe4f98ec1e4027870201729212906&q=${zipcode}&days=7&aqi=no&alerts=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=5ffe4f98ec1e4027870201729212906&q=${zipcode}&days=7&aqi=no&alerts=no`
     ).then(response => {
       if (response.status !== 200) {
         console.log(
